@@ -4,8 +4,9 @@ const btn = document.getElementById("btn");
 
 let array = [5, 4, 6, 8, 9, 12]
 
-let result = 0
-let newArray = array.map((value, index)=>{
-    return value * 3
+let checkNum = array.every((num)=>{
+   num >10
 })
-pTag.innerText = newArray
+
+console.log(checkNum);
+pTag.innerText = checkNum
