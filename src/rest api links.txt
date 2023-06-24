@@ -1,0 +1,3 @@
+https://api.publicapis.org/entries
+
+https://apipheny.io/free-api/#apis-without-key
